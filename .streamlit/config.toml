@@ -1,0 +1,21 @@
+#[server]
+# Disable file watcher to avoid torch.classes warning
+#fileWatcherType = "none"
+
+# Or use this alternative:
+# runOnSave = false
+
+
+[server]
+# Disable XSRF protection to fix 403 upload error
+enableXsrfProtection = false
+
+# Disable CORS protection (optional, if still having issues)
+enableCORS = false
+
+# Increase upload limit if needed (default is 200MB)
+maxUploadSize = 400
+
+# Disable file watcher to avoid torch warning
+fileWatcherType = "none"
+

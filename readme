@@ -1,0 +1,28 @@
+to install dependencies>>pip install -r requirements.txt
+
+*>>Method 1: Install Streamlit (Recommended - Quick Fix)
+Open PowerShell in your project directory and run:
+
+powershell
+# Check if pip is working
+python --version
+pip --version
+
+# Install Streamlit
+pip install streamlit
+
+# Verify installation
+python -m streamlit --version
+If the regular streamlit command doesn't work, use this instead:
+
+powershell
+python -m streamlit run app.py
+This bypasses the PATH issue by running Streamlit as a Python module.
+
+
+
+
+to run >> python -m streamlit run app.py
+
+
+https://www.perplexity.ai/search/ai-powered-document-analyzer-m-4U6r9DxwSv6dHg3aFaIinQ
