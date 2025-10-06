@@ -97,7 +97,7 @@ def answer_question(text, question):
             model='gemini-2.0-flash',
             contents=prompt,
             config=types.GenerateContentConfig(
-                temperature=0.5,
+                temperature=0.6,  # Slightly higher temperature for more creative answers
                 max_output_tokens=512
             )
         )
