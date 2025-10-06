@@ -24,5 +24,21 @@ This bypasses the PATH issue by running Streamlit as a Python module.
 
 to run >> python -m streamlit run app.py
 
-
+#all code and process, used perplexity for this application devlopment 
 https://www.perplexity.ai/search/ai-powered-document-analyzer-m-4U6r9DxwSv6dHg3aFaIinQ
+
+
+
+
+
+cd C:\software\UJJWAL_GOLU\Ai-work\doc_analyzer
+
+# Initialize git (if not already)
+git init
+git add .
+git commit -m "Initial commit: AI Document Analyzer"
+
+# Create GitHub repo and push
+git remote add origin https://github.com/ujjjwal/ai-doc-analyzer.git
+git branch -M main
+git push -u origin main
